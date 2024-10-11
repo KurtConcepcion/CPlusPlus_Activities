@@ -2,14 +2,23 @@
 
 using namespace std;
 
-int main(){
-int num;
+float num1, num2, num3;
+float sum;
+int subtract;
+int main()
+{
+    cout << "Enter the First Number:";
+    cin >> num1;
+    cout << "Enter the Second Number:";
+    cin >> num2;
 
-    cout << "Enter a Number to Multiply:";
-    cin >> num;
+    sum = num1 + num2;
+    cout << "sum is:" << sum << endl;
 
-    for (int i =1; i <=10; i++){
-        cout << num << "x" << i << "=" << num * i << endl;
-    }
+    cout << "Enter a Number to Subtract:";
+    cin >> num3;
+
+    subtract = num1 + num2 - num3;
+    cout << "Subtract is:" << subtract;
     return 0;
 }
